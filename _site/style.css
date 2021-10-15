@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 * {
 	margin: 0;
@@ -7,23 +7,27 @@
 
 body {
 	padding: 20px;
-	font-family: "Open Sans", Arial, sans-serif;
-	font-size: small;
+	font-family: "Cabin", Arial, sans-serif;
+	font-size: medium;
+	background-color: #000;
 }
 
 h1 {
 	margin-bottom: 20px;
+	color: #fff;
 }
 
 h2.section-head {
 	margin-top: 25px;
 	margin-bottom: 10px;
 	text-align: center;
+	color: #fff;
 }
 
 h1.page-head {
 	text-align: center;
 	font-size: xx-large;
+	color: #fff;
 }
 
 tr {
@@ -34,6 +38,8 @@ tr {
 	text-align: center;
 	margin-top: 1rem;
 	font-size: 0.8rem;
+	color: #fff;
+	text-decoration-color: #42dca3;
 }
 
 .machine {
@@ -49,14 +55,13 @@ tr {
 	flex: 0 0 22px;
 	padding: 3px 5px;
 	font-size: 15px;
-	border: 1px solid #ccc;
 	border-bottom: none;
-	background-color: #0a3863;
-	color: #fff;
+	background-color: #42dca3;
+	color: #000;
 }
 
 .machine-head a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -124,3 +129,4 @@ tr {
 	text-align: left;
 	padding-left: 5px;
 }
+
